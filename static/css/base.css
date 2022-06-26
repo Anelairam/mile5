@@ -5,7 +5,13 @@ html {
 body {
     background-color: aqua;
 }
+.main-navbar{
+}
 
+.main-navbar li{
+    background-color: lightcoral;
+    margin-left: 2.5%;
+}
 #mobile-icon-list {
     background-color: aquamarine !important;
     padding-top: 5%;
@@ -19,3 +25,5 @@ body {
     margin-left: 15%;
     justify-content: space-between;
 }
+
+
