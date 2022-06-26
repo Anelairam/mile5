@@ -1,0 +1,72 @@
+<div class="container-md bg-white d-lg-none w-75" id="mobile-icon-list">
+    <div class="row">
+        <div class="col">
+            <!--Search dropdown button-->
+            <ul id="list-of-items">
+                <li class="list-inline-item icon-list">
+                    <a class="text-black nav-link d-block d-lg-none" href="#" role="button" id="mobile-search" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="text-center">
+                            <div><i class="fas fa-search fa-lg"></i></div>
+                            <p class="my-0">Search</p>
+                        </div>
+                    </a>
+                    
+                    <ul class="dropdown-menu w-100" aria-labelledby="mobile-search">
+                        <li>
+                            <form class="form w-100" method="GET" action="">
+                                <div class="input-group w-100">
+                                    <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site">
+                                    <div class="input-group-append">
+                                        <button class="form-control form-control btn btn-black border border-black rounded-0" type="submit">
+                                            <span class="icon">
+                                                <i class="fas fa-search"></i>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </li>
+                </li>
+                <!--Account dropdown button-->
+                <li class="list-inline-item icon-list">
+                    <a class="text-black nav-link d-block d-lg-none" href="#" role="button" id="dropdownAccount" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="text-center">
+                            <div><i class="fas fa-user fa-lg"></i></div>
+                            <p class="my-0">My Account</p>
+                        </div>
+                    </a>
+                    
+                    <ul class="dropdown-menu w-100" aria-labelledby="dropdownAccount">
+                        {% if request.user.is_authenticated %}
+                                {% if request.user.is_superuser %}
+                                <li><a href="" class="dropdown-item">Product Management</a></li>
+                                {% endif %}
+                                <li><a href="" class="dropdown-item">My Profile</a></li>
+                                <li><a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a></li>
+                        {% else %}
+                            <li><a href="{% url 'account_signup' %}" class="dropdown-item">Register</a></li>
+                            <li><a href="{% url 'account_login' %}" class="dropdown-item">Login</a></li>
+                        {% endif %}
+                    </ul>
+                </li>
+                <!--Shopping bag button-->
+                <li class="list-inline-item icon-list">
+                    <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none" href="">
+                        <div class="text-center">
+                            <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                            <p class="my-0">
+                                {% if grand_total %}
+                                    ${{ grand_total|floatformat:2 }}
+                                {% else %}
+                                    $0.00
+                                {% endif %}
+                            </p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

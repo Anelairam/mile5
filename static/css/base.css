@@ -5,3 +5,17 @@ html {
 body {
     background-color: aqua;
 }
+
+#mobile-icon-list {
+    background-color: aquamarine !important;
+    padding-top: 5%;
+}
+
+#list-of-items{
+    padding-left: 0;
+}
+
+.icon-list {
+    margin-left: 15%;
+    justify-content: space-between;
+}
