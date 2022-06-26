@@ -5,7 +5,9 @@ html {
 body {
     background-color: aqua;
 }
-.main-navbar{
+
+.header-spacing {
+    padding-top: 164px;
 }
 
 .main-navbar li{
