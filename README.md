@@ -9,9 +9,7 @@
 Mobile
 ![image](https://user-images.githubusercontent.com/25570623/176249485-e7310264-950e-48a9-b1bd-c86c9d065f79.png)
 ![image](https://user-images.githubusercontent.com/25570623/176249812-b91bbedc-8a57-4f3e-9718-2fd09c598d5f.png)
-![image](https://user-images.githubusercontent.com/25570623/176250213-73e7cfe6-7492-4e92-98a4-0409e03b65a2.png)
 ![image](https://user-images.githubusercontent.com/25570623/176251656-61cd90f7-e278-4669-af0f-eb0ed2cb3318.png)
-![image](https://user-images.githubusercontent.com/25570623/176252049-7503a659-3d92-4cdc-9323-a26aab4b6803.png)
 ![image](https://user-images.githubusercontent.com/25570623/176252752-ba9ffad7-dd29-40c4-8a19-ed6c25220edc.png)
 
 
