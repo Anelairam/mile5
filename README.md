@@ -10,12 +10,56 @@
   * [Strategy Plane](#Strategy-Plane)
   * [Scope Plane](#Scope-Plane)
     * [User Storie](#User-Stories)
-* Here we go
+  * [Skeleton Plane](#Skeleton-Plane)
+  * [Wireframes](#Wireframes)
+    * [Full Screen](#Full-Screen)
+    * [Mobile](#mobile)
+  * [Design](#design)
+    * [Images](#images)
+    * [Colours](#colours)
+* [Database View](#database-view)
+* [Data Models](#data-models)
+* [Technologies Used](#technologies-used)
+* [Testing](#testing-validation)
+* [Deployment](#deployment)
+* [Credits](#credits)
 
 </p>
 </details>
 
 ## User Experience
+
+### Strategy Plane
+
+### Scoop Plane
+
+#### User Stories
+
+### Skeleton Plane
+
+### Wireframes
+
+#### Full Screen
+
+#### Mobile
+
+### Design
+
+#### Images
+
+#### Colours
+
+### Database View
+
+### Data Models
+
+### Technologies Used
+
+### Testing & Validation
+
+### Deployment
+
+### Credits
 
 ![image](https://user-images.githubusercontent.com/25570623/176245314-e94efa3d-7be8-44a1-a242-e1f62df93123.png)
 ![image](https://user-images.githubusercontent.com/25570623/176246335-a9bad98f-1171-4f8d-8ccf-e508dda5c02a.png)
