@@ -6,7 +6,8 @@
 <details><summary>Contents</summary>
 <p>
 
-[Go to Real Cool Heading section](#real-cool-heading)
+* [Go to Real Cool Heading section](#real-cool-heading)
+* Here we go
 
 </p>
 </details>
