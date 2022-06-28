@@ -28,8 +28,8 @@ body {
     justify-content: space-between;
 }
 
-.update-link,
-.remove-item {
+.update-qnt,
+.remove-reduce {
     cursor: pointer;
 }
 

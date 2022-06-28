@@ -3,13 +3,13 @@ from django.shortcuts import render, redirect, reverse
 # Create your views here.
 
 def shopping_bag(request):
-    """A view returning the index page"""
+    """A view returning the shopping bag page"""
     
     return render(request, 'bag/shopping_bag.html')
 
 
 def add_to_bag(request, item_id):
-    """ Add a quantity of the specified product to the shopping bag """
+    """ Add item/items in the shopping bag based on quantity and redirect to same page """
 
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
@@ -25,7 +25,7 @@ def add_to_bag(request, item_id):
 
 
 def edit_bag(request, item_id):
-    """ Add a quantity of the specified product to the shopping bag """
+    """ Edit the shopping bag items and redirect to the shopping bag """
 
     quantity = int(request.POST.get('quantity'))
     bag = request.session.get('bag', {})

@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block content %}
-<!--Main page content-->
+<!--Shopping bag content-->
     <div class="container mb-2 header-spacing">
         <div class="row">
             <div class="col">
@@ -52,8 +52,8 @@
                                             </div>
                                         </div>
                                     </form>
-                                    <a class="update-link text-info"><small>Update</small></a>
-                                    <a class="remove-item text-danger float-right" id="remove_{{ item.item_id }}" data-size="{{ item.size }}"><small>Remove</small></a>
+                                    <a class="update-qnt text-info"><small>Update</small></a>
+                                    <a class="remove-reduce text-danger float-right" id="remove_{{ item.item_id }}" data-size="{{ item.size }}"><small>Remove</small></a>
                                 </td>
                                     <td class="py-3">
                                         <p class="my-0">${{ item.product.price }}</p>
@@ -103,22 +103,9 @@
 {% block postloadjs %}
     <script type="text/javascript">
         // Update quantity on click
-        $('.update-link').click(function(e) {
+        $('.update-qnt').click(function(e) {
             var form = $(this).prev('.update-form');
             form.submit();
-        })
-
-        // Remove item and reload on click
-        $('.remove-item').click(function(e) {
-            var csrfToken = "{{ csrf_token }}";
-            var itemId = $(this).attr('id').split('remove_')[1];
-            var url = `/bag/remove/${itemId}`;
-            var data = {'csrfmiddlewaretoken': csrfToken, 'size': size};
-
-            $.post(url, data)
-            .done(function() {
-                location.reload();
-            });
         })
     </script>
 {% endblock %}
