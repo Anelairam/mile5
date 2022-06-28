@@ -1,10 +1,20 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Marialena Livathinopoulou,
+![image](https://user-images.githubusercontent.com/25570623/176245314-e94efa3d-7be8-44a1-a242-e1f62df93123.png)
+![image](https://user-images.githubusercontent.com/25570623/176246335-a9bad98f-1171-4f8d-8ccf-e508dda5c02a.png)
+![image](https://user-images.githubusercontent.com/25570623/176247468-fe839dea-3b45-4d08-b109-0df352380b8f.png)
+![image](https://user-images.githubusercontent.com/25570623/176247934-d5559e97-db38-4d4d-ab0d-23e5312dc82a.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Mobile
+![image](https://user-images.githubusercontent.com/25570623/176249485-e7310264-950e-48a9-b1bd-c86c9d065f79.png)
+![image](https://user-images.githubusercontent.com/25570623/176249812-b91bbedc-8a57-4f3e-9718-2fd09c598d5f.png)
+![image](https://user-images.githubusercontent.com/25570623/176250213-73e7cfe6-7492-4e92-98a4-0409e03b65a2.png)
+![image](https://user-images.githubusercontent.com/25570623/176251656-61cd90f7-e278-4669-af0f-eb0ed2cb3318.png)
+![image](https://user-images.githubusercontent.com/25570623/176252049-7503a659-3d92-4cdc-9323-a26aab4b6803.png)
+![image](https://user-images.githubusercontent.com/25570623/176252752-ba9ffad7-dd29-40c4-8a19-ed6c25220edc.png)
+
+
 
 ## Gitpod Reminders
 
