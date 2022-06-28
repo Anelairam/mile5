@@ -1,7 +1,7 @@
 #ImageLand
 ---
 
-## Overview
+## Introduction
 ---
 
 <details><summary>Contents</summary>
