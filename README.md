@@ -1,15 +1,12 @@
 #ImageLand
+---
 
 ## Overview
 
 <details><summary>Contents</summary>
 <p>
 
-#### We can hide anything, even code!
-
-```ruby
-   puts "Hello World"
-```
+[Go to Real Cool Heading section](#real-cool-heading)
 
 </p>
 </details>
