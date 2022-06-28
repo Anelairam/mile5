@@ -7,8 +7,9 @@
 <p>
 
 * [User Experience](#User-Experience)
-  * [Go to Real Cool Heading section](#real-cool-heading)
-  * [Go to Real Cool Heading section](#real-cool-heading)
+  * [Strategy Plane](#Strategy-Plane)
+  * [Scope Plane](#Scope-Plane)
+    * [User Storie](#User-Stories)
 * Here we go
 
 </p>
