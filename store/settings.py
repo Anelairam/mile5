@@ -29,7 +29,7 @@ DEBUG = True
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-anelairam-mile5-1iz948y4jx2.ws-eu47.gitpod.io']
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mile5.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -119,14 +119,7 @@ else:
             'ENGINE': 'django.db.backends.sqlite3',
             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         }
-    }
-    
-DATABASES = {
- 'default': {
-    'ENGINE': 'django.db.backends.sqlite3',
-    'NAME': BASE_DIR / 'db.sqlite3',
-   }
- } 
+    } 
 
 #DATABASES = {
 # 'default': dj_database_url.parse('postgres://ezxwpxnhprgwko:c6b88ad3244e3ab9c57ee48522fa360266559c4177508cd067eb90b0f250fc69@ec2-52-212-228-71.eu-west-1.compute.amazonaws.com:5432/dcan7pg6unrdvn')
